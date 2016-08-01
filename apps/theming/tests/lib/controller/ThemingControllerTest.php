@@ -445,7 +445,7 @@ class ThemingControllerTest extends TestCase {
 			->willReturn('');
 
 		$expectedData = '#header .logo {' .
-			'background-image: url(\'./logo?v=0\')' .
+			'background-image: url(\'./logo?v=0\');' .
 			'background-size: contain;' .
 			'}' . "\n" .
 			'#header .logo-icon {' .
@@ -546,7 +546,7 @@ class ThemingControllerTest extends TestCase {
 				';
 		$expectedData .= sprintf(
 			'#header .logo {' .
-			'background-image: url(\'./logo?v=0\')' .
+			'background-image: url(\'./logo?v=0\');' .
 			'background-size: contain;' .
 			'}' . "\n" .
 			'#header .logo-icon {' .
@@ -618,7 +618,7 @@ class ThemingControllerTest extends TestCase {
 				';
 		$expectedData .= sprintf(
 			'#header .logo {' .
-			'background-image: url(\'./logo?v=0\')' .
+			'background-image: url(\'./logo?v=0\');' .
 			'background-size: contain;' .
 			'}' . "\n" .
 			'#header .logo-icon {' .
